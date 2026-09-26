@@ -407,23 +407,52 @@ export const pageDataRegistry = {
   },
   "/committee/organizing": {
     title: "Organizing Committee",
-    subtitle: "Patrons, General Chairs, and Steering Committee for PReMI 2027.",
+    subtitle: "12th International Conference on Pattern Recognition and Machine Intelligence (PReMI 2027)",
     section: "Committee",
-    breadcrumbs: [{ label: "Home", path: "/" }, { label: "Committee", path: "/committee" }, { label: "Organizing", path: "/committee/organizing" }],
+    breadcrumbs: [
+      { label: "Home", path: "/" },
+      { label: "Committee", path: "/committee" },
+      { label: "Organizing Committee", path: "/committee/organizing" }
+    ],
     sections: [
       {
-        heading: "Conference Leadership (Placeholders)",
-        content: "Below is the structural roster for the organizing committee members:",
+        heading: "Patrons & General Chairs",
         table: {
-          headers: ["Role", "Name [Placeholder]", "Affiliation"],
+          headers: ["Role", "Name", "Affiliation"],
           rows: [
-            ["Chief Patron", "Director, IIIT Bhubaneswar", "IIIT Bhubaneswar, India"],
-            ["Honorary General Chair", "Prof. [Name Placeholder]", "Indian Statistical Institute (ISI), Kolkata"],
-            ["General Co-Chairs", "Prof. [Name Placeholder] & Prof. [Name Placeholder]", "IIIT Bhubaneswar & International Partner"],
-            ["Organizing Chairs", "Dr. [Name Placeholder] & Dr. [Name Placeholder]", "Dept. of CSE, IIIT Bhubaneswar"],
-            ["Finance & Treasury Chair", "Dr. [Name Placeholder]", "IIIT Bhubaneswar"],
-            ["Publication Chairs", "Dr. [Name Placeholder] & Dr. [Name Placeholder]", "IIIT Bhubaneswar / ISI Kolkata"],
-            ["Publicity Chairs", "Dr. [Name Placeholder] & Dr. [Name Placeholder]", "International / National Institutions"]
+            ["Chief Patron", "Prof. Ashish Ghosh", "Director, IIIT Bhubaneswar"],
+            ["Honorary General Chair", "Prof. Sankar K. Pal", "Distinguished Scientist & Former Director, ISI Kolkata"],
+            ["General Chairs", "Prof. Bhabatosh Chanda", "ISI Kolkata"],
+            ["General Co-Chair", "Prof. Debasis Samanta", "IIT Kharagpur"],
+            ["General Co-Chair", "Prof. Ajith Abraham", "Machine Intelligence Research Labs (MIR Labs), USA"]
+          ]
+        }
+      },
+      {
+        heading: "Program Chairs",
+        table: {
+          headers: ["Role", "Name", "Affiliation"],
+          rows: [
+            ["Program Chair", "Prof. Pradipta Maji", "ISI Kolkata"],
+            ["Program Co-Chair", "Prof. C. A. Murthy", "ISI Kolkata"],
+            ["Program Co-Chair", "Prof. R. Balasubramanian", "IIT Roorkee"],
+            ["Program Co-Chair", "Prof. Subhransu Ranjan Samantaray", "IIT Bhubaneswar"]
+          ]
+        }
+      },
+      {
+        heading: "Organizing & Local Leadership (IIIT Bhubaneswar)",
+        table: {
+          headers: ["Role", "Name", "Affiliation"],
+          rows: [
+            ["Organizing Chair", "Dr. Rakesh Chandra Balabantaray", "IIIT Bhubaneswar"],
+            ["Organizing Co-Chair", "Dr. Debasish Puhan", "IIIT Bhubaneswar"],
+            ["Finance Chair", "Dr. Srinivas Prasad", "IIIT Bhubaneswar"],
+            ["Publication Chairs", "Dr. Puspanjali Mohapatra & Dr. Subhashree Mishra", "IIIT Bhubaneswar"],
+            ["Publicity & Media Chairs", "Dr. Umakanta Majhi & Dr. Bharati Mishra", "IIIT Bhubaneswar"],
+            ["Sponsorship Chairs", "Dr. Tapan Kumar Sahoo & Dr. Lipika Mohanty", "IIIT Bhubaneswar"],
+            ["Local Arrangement Chairs", "Dr. Sanjaya Kumar Panda & Dr. Suvendu Chandan Nayak", "IIIT Bhubaneswar"],
+            ["Web & IT Chairs", "Dr. Chandan Misra & Dr. Rajat Kumar Behera", "IIIT Bhubaneswar"]
           ]
         }
       }
